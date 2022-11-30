@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Libre+Baskerville:ital@1&family=Montserrat:ital,wght@1,100&display=swap');
+*
+{
+    margin: 0
+}
+/*--------------------------------------------------------------HUB-------------------------------------------------------------------*/
+.titlehub{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    color:crimson;
+    font-size: 25px;
+}
+.centerhub{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.centerhub a img
+{
+border-radius: 20%
+}
+/*--------------------------------------------------------------Clash of Clans-------------------------------------------------------------------*/
+.coc_banière
+{
+    width: 100%;
+}
+.title{ 
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    color:darkblue;
+    font-size: 25px;
+
+}
+.a{
+    height: 1cm;
+    width: 25%;
+    padding-left: 15%;
+    padding-top: 0%;
+    font-size: 20px;
+    text-align: justify;
+    color:crimson
+}
+
+.b{
+    height: 50%;
+    width: 0%;
+    padding-left: 55%;
+    padding-bottom: 0%;
+    font-size: 14px;
+    text-align: justify;
+    color: gray;
+}
+.video{
+    display: flex;
+    padding-bottom:0%; 
+    position:relative;
+}
+.video iframe{
+    left:0;
+    top:0;
+    height:400px;
+    width:500px;
+    position:absolute;
+}
+.gif
+{
+    padding-top: 120px;
+    padding-left: 800px;
+    margin-bottom: 60px;
+}
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%; 
+    position:relative;
+    height:0;
+}
+   .video-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.left{
+    padding-left: 84%;
+}
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+button {
+    margin-top: 5%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    width: 450px;
+    height: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;    
+    background-color: #FF2063;
+    border: none;
+    border-radius: 100px;
+    box-shadow: #5E5DF0 0 10px 20px -15px;
+}
+/*--------------------------------------------------------------Deezer-------------------------------------------------------------------*/
+.body3
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-image:url(background-deezer.png);
+    margin: 0;
+    padding: 0;
+    max-width: 73%;
+    width: 73%;
+}
+.c {
+    width: 115%;
+    padding-left: 2%;
+    text-align: justify;
+}
+.titledeezer{
+    padding-left: 74%;
+    font-family: "Montserrat";
+    font-size: 20px;
+    color:#D32D55;
+}
+.e {
+    width: 50%;
+    padding-left: 31%;
+    padding-top:2%;
+    color: darkmagenta  ;
+}
+
+.f{
+    padding-left: 82%;
+    height: 500px;
+}
+.middle2{
+    padding-left: 47%;
+    font-family: "Montserrat";
+    font-size: 17px;
+    color:#D32D55;
+}
+.last-deezer-text{
+    width: 115%;
+    padding-left: 31%;
+    text-align: justify;
+    color:white;
+}
+.img-left{
+    padding-left: 120%;
+}
+.audio{
+    padding-left: 27%;
+}
+.left-deezer{
+    padding-left: 114%;
+}
+/*--------------------------------------------------------------Discord-------------------------------------------------------------------*/
+.coc_banière
+{
+    width: 100%;
+}
+.title{ 
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    color:darkblue;
+    font-size: 25px;
+
+}
+.left2{
+    padding-left: 3%;
+    padding-top: 1%;
+}
+.h {
+    height: 50%;
+    padding-left: 60%;
+}
+.g {
+    width: 32%;
+    padding-left: 10%;
+    font-size: 20px;
+    text-align: justify;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+.boutton {
+    width: 440px;
+    height: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: px;
+}
+.left{
+    padding-left: 84%;
+}
